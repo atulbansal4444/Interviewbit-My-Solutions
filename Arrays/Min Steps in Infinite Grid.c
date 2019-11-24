@@ -38,7 +38,8 @@ Example :
  * @Output Integer
 */
 
-int coverPoints(int* A, int n1, int* B, int n2) {
+int coverPoints(int* A, int n1, int* B, int n2) 
+{
    int i,j=0,x,y;
     for(i=0;i<n1-1;i++)
     {
