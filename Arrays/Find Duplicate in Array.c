@@ -16,7 +16,8 @@ If there is no duplicate, output -1
  * 
  * @Output Integer
  */
-int cmpfunc (const void * a, const void * b) {
+int cmpfunc (const void * a, const void * b) 
+{
    return ( *(int*)a - *(int*)b );
 }
 
