@@ -49,7 +49,8 @@ int findRepeatingElement(int arr[],int n)
     return -1;
 }
 
-int repeatedNumber(const int* A, int n1) {
+int repeatedNumber(const int* A, int n1) 
+{
     quickSort(A,0,n1-1);
     return findRepeatingElement(A,n1);
 }
