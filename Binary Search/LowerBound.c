@@ -11,12 +11,18 @@ int lb(int *arr,int n,int x)
     {
         mid = (l+r)/2;
         if(arr[mid]>=x)
+        {
             r=mid;
+        }
         else
+        {
             l=mid+1;
+        }
     }
     if(arr[l]==x)
-    return l;
+    {
+        return l;
+    }
     
     return -1;
 }
